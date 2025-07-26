@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/js/home/index.js",
+      "PackagePath": "staticwebassets/js/home/index.js"
+    },
+    {
+      "Id": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/react-app/assets/index-B-a15xhF.js",
+      "PackagePath": "staticwebassets/react-app/assets/index-B-a15xhF.js"
+    },
+    {
+      "Id": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/react-app/index.html",
+      "PackagePath": "staticwebassets/react-app/index.html"
+    },
+    {
+      "Id": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/react-app/vite.svg",
+      "PackagePath": "staticwebassets/react-app/vite.svg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.prueba01.props",
+      "PackagePath": "build\\prueba01.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.prueba01.props",
+      "PackagePath": "buildMultiTargeting\\prueba01.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.prueba01.props",
+      "PackagePath": "buildTransitive\\prueba01.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.prueba01.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
