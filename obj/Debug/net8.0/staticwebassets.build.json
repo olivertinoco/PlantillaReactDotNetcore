@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GzV5sGx3HHkDBoWOMmUxqbiCceVgrcjSORBq++9LUic=",
+  "Hash": "xKf0U4b6d5BB3S3R9pCujQ8t5iTDnNZEBDSe5j8Z9F8=",
   "Source": "prueba01",
   "BasePath": "_content/prueba01",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "wwwroot/js/home/index.js"
     },
     {
-      "Identity": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/js/site.js",
+      "Identity": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/react-app/assets/main.css",
       "SourceId": "prueba01",
       "SourceType": "Discovered",
       "ContentRoot": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/",
       "BasePath": "_content/prueba01",
-      "RelativePath": "js/site.js",
+      "RelativePath": "react-app/assets/main.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot/react-app/assets/main.css"
     },
     {
-      "Identity": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/react-app/assets/index-B-a15xhF.js",
+      "Identity": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/react-app/main.js",
       "SourceId": "prueba01",
       "SourceType": "Discovered",
       "ContentRoot": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/",
       "BasePath": "_content/prueba01",
-      "RelativePath": "react-app/assets/index-B-a15xhF.js",
+      "RelativePath": "react-app/main.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,26 +90,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/react-app/assets/index-B-a15xhF.js"
-    },
-    {
-      "Identity": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/react-app/index.html",
-      "SourceId": "prueba01",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/",
-      "BasePath": "_content/prueba01",
-      "RelativePath": "react-app/index.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/react-app/index.html"
+      "OriginalItemSpec": "wwwroot/react-app/main.js"
     },
     {
       "Identity": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/react-app/vite.svg",

@@ -9,16 +9,12 @@
       "PackagePath": "staticwebassets/js/home/index.js"
     },
     {
-      "Id": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/js/site.js",
-      "PackagePath": "staticwebassets/js/site.js"
+      "Id": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/react-app/assets/main.css",
+      "PackagePath": "staticwebassets/react-app/assets/main.css"
     },
     {
-      "Id": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/react-app/assets/index-B-a15xhF.js",
-      "PackagePath": "staticwebassets/react-app/assets/index-B-a15xhF.js"
-    },
-    {
-      "Id": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/react-app/index.html",
-      "PackagePath": "staticwebassets/react-app/index.html"
+      "Id": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/react-app/main.js",
+      "PackagePath": "staticwebassets/react-app/main.js"
     },
     {
       "Id": "/home/oli/temp/ReactDOTNET/prueba01/wwwroot/react-app/vite.svg",

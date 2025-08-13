@@ -14,6 +14,7 @@
 /home/oli/temp/ReactDOTNET/prueba01/obj/Debug/net8.0/prueba01.MvcApplicationPartsAssemblyInfo.cache
 /home/oli/temp/ReactDOTNET/prueba01/obj/Debug/net8.0/prueba01.RazorAssemblyInfo.cache
 /home/oli/temp/ReactDOTNET/prueba01/obj/Debug/net8.0/prueba01.RazorAssemblyInfo.cs
+/home/oli/temp/ReactDOTNET/prueba01/obj/Debug/net8.0/prueba01.sourcelink.json
 /home/oli/temp/ReactDOTNET/prueba01/obj/Debug/net8.0/staticwebassets.build.json
 /home/oli/temp/ReactDOTNET/prueba01/obj/Debug/net8.0/staticwebassets.development.json
 /home/oli/temp/ReactDOTNET/prueba01/obj/Debug/net8.0/staticwebassets/msbuild.prueba01.Microsoft.AspNetCore.StaticWebAssets.props

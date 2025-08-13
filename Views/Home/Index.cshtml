@@ -3,22 +3,6 @@
 <div id="root"></div>
 
 @section scripts{
-    @if (ViewBag.IsDevelopment == true)
-    {
-        <script type="module">
-            import RefreshRuntime from 'http://localhost:5173/@@react-refresh'
-            RefreshRuntime.injectIntoGlobalHook(window)
-            window.$RefreshReg$ = () => {{}}
-            window.$RefreshSig$ = () => (type) => type
-            window.__vite_plugin_react_preamble_installed__ = true
-        </script>
-        <script src="~/js/home/index.js"></script>
-        <script type="module" src="http://localhost:5173/src/main.jsx"></script>
-    }
-    else
-    {
-        <script src="~/js/home/index.js"></script>
-        <script type="module" src="/react-app/assets/index-B-a15xhF.js"></script>
-        <link rel="stylesheet" href="/react-app/assets/index-B-a15xhF.css">
-    }
+    @await Html.PartialAsync("_ReactScripts")
+    <script src="~/js/home/index.js" asp-append-version="true" ></script>
 }
