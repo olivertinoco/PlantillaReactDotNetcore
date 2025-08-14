@@ -1,24 +1,32 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import tailwindcss from "@tailwindcss/vite";
+import { fileURLToPath } from "url";
+import { dirname, resolve } from "path";
 
-// https://vite.dev/config/
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
 export default defineConfig(({ command }) => {
   const isDev = command === "serve";
 
   return {
+    root: resolve(__dirname, "src"),
     plugins: [react(), tailwindcss()],
     build: {
-      outDir: "../wwwroot/react-app",
+      outDir: resolve(__dirname, "../wwwroot/js/home"),
+      cssCodeSplit: true,
       emptyOutDir: true,
       rollupOptions: {
-        input: {
-          main: "./src/main.jsx",
-        },
+        input: resolve(__dirname, "src/home/index.jsx"),
         output: {
-          entryFileNames: "[name].js",
-          chunkFileNames: "chunks/[name].js",
-          assetFileNames: "assets/[name].[ext]",
+          entryFileNames: isDev ? "[name].js" : "[name].[hash].js",
+          chunkFileNames: isDev
+            ? "chunks/[name].js"
+            : "chunks/[name].[hash].js",
+          assetFileNames: isDev
+            ? "assets/[name].[ext]"
+            : "assets/[name].[hash].[ext]",
         },
       },
     },
@@ -30,6 +38,6 @@ export default defineConfig(({ command }) => {
         protocol: "ws",
       },
     },
-    base: isDev ? "/" : "/react-app/",
+    base: isDev ? "/" : "/js/home/",
   };
 });
